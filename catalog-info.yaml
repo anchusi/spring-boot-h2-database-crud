@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spring-boot-h2-database-crud
+  description: A Spring Boot application demonstrating CRUD operations with an H2 database.
+  annotations:
+    github.com/project-slug: anchusi/spring-boot-h2-database-crud
+    jira/project-key: SCRUM
+    jira/label: backstage-component:spring-boot-h2-database-crud
+spec:
+  type: application
+  owner: ICS
+  lifecycle: experimental
